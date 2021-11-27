@@ -26,7 +26,7 @@
 									<li><a href="alto.html">Alto</a></li>
 									<li><a href="pianist.html">Piano</a></li>
 									<li><a href="chorus.html">Teacher</a></li>
-									<li><a href="engineer.html">Engineering</a></li>
+									<li><a href="engineer.html">Research</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -37,16 +37,73 @@
 				<section id="main" class="container">
 					<header>
 						<h2>Teacher</h2>
-						<p>This page shows some of my thoughts from my music learning and teaching. All the articles are available through the links on the titles. </p>
+						<p>This page shows some of my scientic ideas from my teaching. 
+							<br>I might add a new idea whenever I weave one.
+							<br> I think they are interesting.</p>
 					</header>
 					<div class="box">
-						
-						<!--h3><b> T1--Some thoughts on reading the scores</b></h3-->
-						<h3><a href="#" target="_blank"> <b>T1--Some thoughts on reading the scores</b></a></h3>
+						<span class="image featured"><img src="images/pic01.jpg" height = 50 /></span>
+							<h3><b>T1--Piano training model</b></h3>
+							<p> 
+							<!--
+							Adults are more willing to do more repeating practises while their flexibility are limited. Therefore, the training can be designed very mechanical and step-by-step. For me, I just let my adult students practise the same piece for many times. I strictly set clear targets in tempo, loudness, and expressions just as training a performance model. For example, I would say the scale of C major should be completed in the tempo of 120 in two octaves with no stops. Whenever the targets are achieved, I will make the requirements more "tricky" until the piece sounds great. 
+						-->
+							There should be a model to adjust the training targets for learners and do the supervision to help them learn how to play, and the specific targets of the model can be designed as follows.
+							<br>
+							1. Evaluate the performer's strengths and weaknesses from a few dimentions like:
+							<br>a) loudness
+							<br>b) speed
+							<br>c) coordination
+							<br>d) number of wrong notes
+							<br>e) etc. 
+							<br>
+							2. Design homework for the performer to enhance the weknesses and make the strengths stronger as well.
+							<br>
+							<br>
+							</p>
+							<h3><b>T2--Piano playing model</b></h3>
+							<p>
+							There are several features in human's performances listed as follows:
+							<br>
+							1. Human may have their own recreation in playing the scores.
+							<br>
+							2. Human's rhythms may be more casual and more imperfect. For example, the trills played in both crescendo and rita.
+							<br>
+							We could design a performing model based on such facts rather than just set the parameters of the pitches, tempos, etc.  
+							<br>
+							<br>
+							</p>
 
-						<!--h2>Introduction</h2-->
-						<p> It seems impossible for an adult beginner to read the full orchestra scores. However, according to my experiences of both learning and pedagogy, there are some tips which may give you some food for thought.
-						</p>
+							<h3><b>T3--Human hand model</b></h3>
+							<p>
+							The existing piano playing programs do not consider such factors:
+							<br>
+							1. The coordination of human's left hand and right hand varied according to how long they practised.
+							<br>
+							2. Human may play some wrong notes due to the limitation of their hands.
+							<br>
+							3. The timber of notes are affected by how fingers touch the keys.
+							<br>
+							We could design a model cased on the structures of human's hands to simulate a more realistic piano performance. Maybe we need to coorporate with a med school. 
+							<br>
+							<br>
+							</p>
+							<h3><b>T4--Piano difficulty model</b></h3>
+							<p>
+							<!--A student once asked me how to measure her level of playing the piano. I told her to say that she can play a famous work like Mozart's KV545 or Czerny's Etude Op.299, but she thought that is too ambiguous. Then I had to tell her to take some exams like ABRSM. However, sometimes we cannot describe how hard a work is. Therefore, a model to evaluate the difficulty of piano works is necessary. -->
+							<br>
+							We can give an objective score to describe how difficult a piano piece is.
+							<br>
+							We have GiantMIDI-Piano Dataset which can be used to train the difficulty evaluation model.
+							We can use the unsupervised learning to cluster the performance in similar difficulty and give them labels, and we can give some examples:
+							<br> 1. The speed for Etudes in more than 1000 notes per minute can be discribed as difficult, which can be a rule-based algorithm.
+							<br> 2. The variation among the key-touching in a piece. There should be a catagory for different key-touching methods.
+							<br> 3. etc. 
+							<br>
+							The comprehensive score for different dimentions could be illustrated in a chart.
+							<br>
+							<br>
+							</p>
 						
 						<!--h2>Score</h2>
 						<h1>The article T1 is available 
@@ -54,135 +111,147 @@
 						</h1-->
 
 							
-						<HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
+						<!--HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
 
-						<!--h3><b> T2--Some thoughts on ear training</b></h3-->
-						<h3><a href="#" target="_blank"> <b>T2--Some thoughts on ear training </b></a></h3>
+						<--h3><b> T2--Some thoughts on ear training</b></h3->
+						<h3><b>T4--Hearing perception model</b></h3-->
 
 						<!--h2>Introduction</h2-->
-						<p> Not everybody has an absolute pitch (fortunately I have one), but relative pitch is much easier to be trained from many interesting practises. There are some tips in the recognization of intervals and chords. 
-						</p>
+						<!--p> 
+							Unlike adults, I focus on cultivating solfeggio for kids in a natural way, and I want to model the way how children master it. 
+
+							It is amazing that kids can imitate everything much faster and easier than adults. Many kids can sing which note they plays in "do re mi" or "C D E". I think that it is more like a Pulse Code Modulation sampling for the music signals in their brains. However, for adults who cannot be changed from movable doh, their modeling for music are more close to encoding the diffences. I think that the major difference is the reaction to 440Hz rather than age. With enough delibirate training, we can make sure than people can remember the intervals in major and minor scales, but it is hard to make a mapping from 440Hz to hearing. For musical perception, it must be an interesting topic.    
+
+
+						</p-->
 						
 						<!--h2>Score</h2>
 						<h1>The article T2 is available 
 							<a href="#" target="_blank"> HERE. </a>
 						</h1-->
 						
-						<HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
+						
 
 						<!--h3><b> T3--Some thoughts on perfect pitch</b></h3-->
-						<h3><a href="#" target="_blank"> <b>T3--Some thoughts on perfect pitch </b></a></h3>
+						<!--h3><a href="#" target="_blank"> <b>T3--Some thoughts on perfect pitch </b></a></h3>
 
-						<!--h2>Introduction</h2-->
+						<--h2>Introduction</h2->
 						<p> Most people go out of the tune when they are singing and they never come back. There are several suggerstions to help to solve this problem from the experience of me, my friends and students.
-						</p>
+						</p-->
 						
 						<!--h2>Score</h2>
 						<h1>The article T3 is available 
 							<a href="#" target="_blank"> HERE. </a>
 						</h1-->
 
-						<HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
+						<!--HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
 
-						<!--h3><b> T4--Some thoughts on warm-up</b></h3-->
+						<--h3><b> T4--Some thoughts on warm-up</b></h3->
 						<h3><a href="#" target="_blank"> <b>T4--Some thoughts on warm-up </b></a></h3>
-						<!--h2>Introduction</h2-->
+						<--h2>Introduction</h2->
 						<p> 
 							For the professional pianists and opera singers, they can even perform well when they are sick or drunk. However, most people have to do some warm-up to make their perfances do not mess up, which is necessary and meaningful. I will show you some of my methods in warming myself up and share some of my original etudes.
-						</p>
+						</p-->
 						
 						<!--h2>Score</h2>
 						<h1>The article T4 is available 
 							<a href="#" target="_blank"> HERE. </a>
 						</h1-->
 
-						<HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
+						<!--HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
 						
-						<!--h3><b> T5--Some thoughts on reciting the scores</b></h3-->
+						<-h3><b> T5--Some thoughts on reciting the scores</b></h3->
 						<h3><a href="#" target="_blank"> <b>T5--Some thoughts on reciting the scores </b></a></h3>
 
-						<!--h2>Introduction</h2-->
+						<--h2>Introduction</h2->
 						<p> 
 							Both reciting the articles or poems from the textbooks and remembering the music scores are of great difficulty, but there are some tips to do some help, and make you a better performer.
-						</p>
+						</p-->
 						
 						<!--h2>Score</h2>
 						<h1>The article T5 is available 
 							<a href="#" target="_blank"> HERE. </a>
 						</h1-->
 
-						<HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
+						<!--HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
 
-						<!--h3><b> T6--Some thoughts on voice leading</b></h3-->
+						<--h3><b> T6--Some thoughts on voice leading</b></h3->
 						<h3><a href="#" target="_blank"> <b>T6--Some thoughts on voice leading </b></a></h3>
 
-						<!--h2>Introduction</h2-->
+						<--h2>Introduction</h2->
 						<p> 
 							The excellent voice leading can always make you feel that "This must please the God and I'll definately be saved.", which is common in the churches. The basic rules of harmony in classical music are strict and logical, ensuring the music be harmonic. Some interesting stories about my composing learning may give you some inspirations.
-						</p>
+						</p-->
 						
 						<!--h2>Score</h2>
 						<h1>The article T6 is available 
 							<a href="#" target="_blank"> HERE. </a>
 						</h1-->
 
-						<HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
+						<!--HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
 
-						<!--h3><b> T7--Some thoughts on conducting</b></h3-->
+						<--h3><b> T7--Some thoughts on conducting</b></h3->
 						<h3><a href="#" target="_blank"> <b>T7--Some thoughts on conducting choirs </b></a></h3>
 
-						<!--h2>Introduction</h2-->
+						<--h2>Introduction</h2->
 						<p> 
 							A choir consists of dozens of amateurs is always annoying, but you can still learn a lot from the challenges. I have conducted over ten times with different amateur choirs and maybe there are some experiences are worthy of reference.
-						</p>
+						</p-->
 						
 						<!--h2>Score</h2>
 						<h1>The article T7 is available 
 							<a href="#" target="_blank"> HERE. </a>
 						</h1-->
 
-						<HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
+						<!--HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
 
 						<h3><a href="#" target="_blank"> <b>T8--Some thoughts on piano tuning </b></a></h3>
 
-						<!--h2>Introduction</h2-->
+						<--h2>Introduction</h2->
 						<p> 
 							When you observe the piano carefully, you will find that instrument is very elaborate and scientific. I think that the structure may do some help in playing and ear training. You may touch the piano keys with more thinking after reading this article.
-						</p>
+						</p-->
 						
 						<!--h2>Score</h2>
 						<h1>The article T8 is available 
 							<a href="#" target="_blank"> HERE. </a>
 						</h1-->
 
-						<HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
+						<!--HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
 
-						<!--h3><b> T9--Some thoughts on the resonance in singing</b></h3-->
+						<--h3><b> T9--Some thoughts on the resonance in singing</b></h3->
 						<h3><a href="#" target="_blank"> <b>T9--Some thoughts on the resonance in singing </b></a></h3>
 
-						<!--h2>Introduction</h2-->
+						<--h2>Introduction</h2->
 						<p> 
 							For beginners to learn Bel Canto, it is confusing for them to make their sound "big and bright and thick and powerful." Their essential problem is to find the correct position of resonance. I'll tell you some of my methods to conquer this abstract definition.
-						</p>
+						</p-->
 						
 						<!--h2>Score</h2>
 						<h1>The article T9 is available 
 							<a href="#" target="_blank"> HERE. </a>
 						</h1-->
 
-						<HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3>
+						<!--HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="80%"color=#987cb9 SIZE=3-->
 
-						<h3><a href="#" target="_blank"> <b>T10--Some thoughts on pronunciation in singing </b></a></h3>
+						<h3><b>T5--Pronunciation training model</b></h3>
 
 						<!--h2>Introduction</h2-->
 						<p> 
-						The proper pronounciation can make your singing been accepted by more audiences. All the vowels, consonants and the alveolar trills should be treated equally carefully. I can give you my suggestion in practising, which may also help in the learning of a foreign language .
+							For beginners in learning vocal, they may feel difficult to control the breathes, the resonance positions, the vibrados, etc. It is unrealistic to model all the listed and make the model just replace a vocal teacher. However, maybe some of the listed can be modeled to do some help.
+							<br>
+							1. Recognize the rhythm of reading the lyrics, and make it follow the accompaniment strictly.
+							<br>
+							2. Check the pronunciations for each phonome in the lyrics.
+							<br>
+							Besides correcting the pronunciation in singing, the model can also help in learning performance, poem recitation, etc.
 						</p>
 						
 						<!--h2>Score</h2>
 						<h1>The article T10 is available 
 							<a href="#" target="_blank"> HERE. </a>
 						</h1-->
+						<span class="image featured"><img src="images/pic01.jpg" height = 50 /></span>
 
 
 
